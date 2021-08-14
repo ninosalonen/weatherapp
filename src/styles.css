@@ -1,0 +1,9 @@
+html {
+    background-color: rgba(128, 128, 128, 0.401);
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
