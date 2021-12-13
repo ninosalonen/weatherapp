@@ -96,7 +96,7 @@ const App = () => {
 
   useEffect(() => {
     axios
-      .get("https://restcountries.eu/rest/v2/all")
+      .get("https://restcountries.com/v2/all")
       .then(response =>{
         setCountries(response.data)
       })
